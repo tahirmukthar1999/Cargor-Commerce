@@ -93,6 +93,15 @@ margin-top: 10px;
     margin-bottom: 10px;
 }
 
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #164e85;
+  color: #fff;
+  margin-top: 20px;
+}
+
+
 @media screen and (max-width: 700px) {
     .left,.main,.right{
         width: 100%;

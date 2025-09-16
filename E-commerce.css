@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #333;
+    background: #f9f9f9;
+}
+h1,h2,h3{
+    margin: 0 0 10px;
+
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #164e85;
+color: white;
+padding: 1rem 2rem;
+position: sticky;
+top: 0;
+}
+.navbar nav a {
+color: white;
+margin-left: 20px;
+font-weight: bold;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(157, 205, 203);
+    padding: 2rem;
+    gap: 20px;
+    
+}
+.hero-text{
+    max-width: 50%;
+
+}
+.hero img{
+    width: 300px;
+    border-radius: 10px;
+}
+.btn{
+background: #164e85 ;
+color: white;
+padding: 10px 20px;
+border-radius: 6px;
+cursor: pointer;
+margin-top: 10px;
+
+}
+.layout{
+    display: flex;
+    gap: 20px;
+    padding: 2rem;
+
+}
+.sidebar{
+    flex: 0 0 200px;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+
+}
+.sidebar li{
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+
+}
+.card{
+    flex: 1 1 250px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .left,.main,.right{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .left,.right,.main{
+        width: 100%;
+        font-size:60px;
+        padding: 40px;
+
+    }
+    
+}
